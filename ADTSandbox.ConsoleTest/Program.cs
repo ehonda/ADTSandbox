@@ -17,6 +17,10 @@ namespace ADTSandbox.ConsoleTest
                 Console.WriteLine($"Sku = {singleArticle.Sku}");
                 var otherSingleArticle = new SingleArticle(singleArticle);
             }
+
+            // TODO: This only generates a warning, how do we deal with it?
+            //  - Throw on null in property init?
+            var nullSkuRequest = new SingleArticle { Sku = null };
         }
     }
 }
