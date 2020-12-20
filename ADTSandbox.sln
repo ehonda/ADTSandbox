@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADTSandbox", "ADTSandbox\AD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADTSandbox.ConsoleTest", "ADTSandbox.ConsoleTest\ADTSandbox.ConsoleTest.csproj", "{69F078C7-C840-4210-AD92-8BF5D6031FE6}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADTSandbox.Tests", "ADTSandbox.Tests\ADTSandbox.Tests.csproj", "{98EF43CC-D766-4ECF-9725-AAFC0F42A290}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{69F078C7-C840-4210-AD92-8BF5D6031FE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69F078C7-C840-4210-AD92-8BF5D6031FE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69F078C7-C840-4210-AD92-8BF5D6031FE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98EF43CC-D766-4ECF-9725-AAFC0F42A290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98EF43CC-D766-4ECF-9725-AAFC0F42A290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98EF43CC-D766-4ECF-9725-AAFC0F42A290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98EF43CC-D766-4ECF-9725-AAFC0F42A290}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
