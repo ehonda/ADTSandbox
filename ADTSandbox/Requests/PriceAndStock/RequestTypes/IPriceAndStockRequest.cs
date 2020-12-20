@@ -2,7 +2,7 @@
 using ADTSandbox.Filters;
 using System;
 
-namespace ADTSandbox.Models.Requests.PriceAndStock
+namespace ADTSandbox.Requests.PriceAndStock.RequestTypes
 {
     /// <summary>
     /// Request used for price and stock service.

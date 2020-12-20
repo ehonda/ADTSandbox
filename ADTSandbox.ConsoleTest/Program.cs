@@ -1,4 +1,4 @@
-﻿using ADTSandbox.Models.Requests.PriceAndStock;
+﻿using ADTSandbox.Requests.PriceAndStock.RequestTypes;
 using System;
 
 namespace ADTSandbox.ConsoleTest
