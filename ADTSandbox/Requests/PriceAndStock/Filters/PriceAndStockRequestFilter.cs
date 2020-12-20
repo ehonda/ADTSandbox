@@ -1,6 +1,6 @@
 ﻿using ADTSandbox.Enums.PriceAndStock;
 
-namespace ADTSandbox.Filters
+namespace ADTSandbox.Requests.PriceAndStock.Filters
 {
     /// <summary>
     /// The filter to construct a price and stock request from.

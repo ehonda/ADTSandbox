@@ -1,5 +1,5 @@
 ﻿using ADTSandbox.Enums.PriceAndStock;
-using ADTSandbox.Filters;
+using ADTSandbox.Requests.PriceAndStock.Filters;
 using System;
 
 namespace ADTSandbox.Requests.PriceAndStock.RequestTypes
