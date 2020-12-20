@@ -15,7 +15,7 @@ namespace ADTSandbox.ConsoleTest
             if (request is SingleArticle singleArticle)
             {
                 Console.WriteLine($"Sku = {singleArticle.Sku}");
-                var otherSingleArticle = new SingleArticle(singleArticle);
+                var otherSingleArticle = singleArticle with { };
             }
 
             // TODO: This only generates a warning, how do we deal with it?

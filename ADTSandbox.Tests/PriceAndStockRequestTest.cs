@@ -24,7 +24,7 @@ namespace ADTSandbox.Tests
         public void SingleArticle_Request_Is_Copy_Constructible()
         {
             var request = new SingleArticle();
-            var copiedRequest = new SingleArticle(request);
+            var copiedRequest = request with { };
             Assert.That(request, Is.EqualTo(copiedRequest));
         }
 
