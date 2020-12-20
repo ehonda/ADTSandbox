@@ -13,7 +13,10 @@ namespace ADTSandbox.ConsoleTest
             var request = GetRequest();
 
             if (request is SingleArticle singleArticle)
+            {
                 Console.WriteLine($"Sku = {singleArticle.Sku}");
+                var otherSingleArticle = new SingleArticle(singleArticle);
+            }
         }
     }
 }
