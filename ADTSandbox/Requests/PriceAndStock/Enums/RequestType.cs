@@ -1,4 +1,4 @@
-﻿namespace ADTSandbox.Enums.PriceAndStock
+﻿namespace ADTSandbox.Requests.PriceAndStock.Enums
 {
     /// <summary>
     /// The type of the request.

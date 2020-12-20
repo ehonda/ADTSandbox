@@ -1,4 +1,4 @@
-﻿using ADTSandbox.Enums.PriceAndStock;
+﻿using ADTSandbox.Requests.PriceAndStock.Enums;
 
 namespace ADTSandbox.Requests.PriceAndStock.Filters
 {
