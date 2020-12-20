@@ -1,9 +1,6 @@
-﻿using ADTSandbox.Models.Base;
-
-namespace ADTSandbox.Models.Requests.PriceAndStock
+﻿namespace ADTSandbox.Models.Requests.PriceAndStock
 {
-    public record SingleArticle : PriceAndStockRequest, ISingleArticle
+    public record SingleArticle : Base.SingleArticle, IPriceAndStockRequest
     {
-        public string Sku { get; init; } = string.Empty;
     }
 }

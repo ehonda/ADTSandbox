@@ -1,6 +1,6 @@
 ﻿namespace ADTSandbox.Models.Base
 {
-    public interface IAllArticles
+    public record AllArticles
     {
     }
 }

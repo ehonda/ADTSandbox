@@ -5,7 +5,7 @@ namespace ADTSandbox.ConsoleTest
 {
     class Program
     {
-        private static PriceAndStockRequest GetRequest()
+        private static IPriceAndStockRequest GetRequest()
             => new SingleArticle { Sku = "100" };
 
         public static void Main(string[] args)
