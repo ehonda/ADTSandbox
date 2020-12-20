@@ -1,7 +1,7 @@
 ﻿namespace ADTSandbox.Requests.PriceAndStock.RequestTypes
 {
-    /// <inheritdoc cref="Models.RequestTypes.AllArticles"/>
-    public record AllArticles : Models.RequestTypes.AllArticles, IPriceAndStockRequest
+    /// <inheritdoc cref="Base.RequestTypes.AllArticles"/>
+    public record AllArticles : Base.RequestTypes.AllArticles, IPriceAndStockRequest
     {
     }
 }
