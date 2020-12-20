@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ADTSandbox.Models.Base
+namespace ADTSandbox.Models.RequestTypes
 {
     /// <summary>
     /// Request representing a single article identified

@@ -1,4 +1,4 @@
-﻿namespace ADTSandbox.Models.Base
+﻿namespace ADTSandbox.Models.RequestTypes
 {
     /// <summary>
     /// Request representing all articles.
