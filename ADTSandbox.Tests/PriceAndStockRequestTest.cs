@@ -14,24 +14,6 @@ namespace ADTSandbox.Tests
         }
 
         [Test]
-        public void SingleArticle_Request_Is_Default_Constructible_With_Empty_Sku()
-        {
-            var request = new SingleArticle();
-            Assert.That(request.Sku, Is.EqualTo(string.Empty));
-        }
-
-        [Test]
-        public void SingleArticle_Request_Is_Copy_Constructible()
-        {
-            var request = new SingleArticle();
-            var copiedRequest = request with { };
-            Assert.That(request, Is.EqualTo(copiedRequest));
-        }
-
-        // TODO: How do we deal with null skus?
-        //  -> Probably don't care, since we only want to create request from filters
-
-        [Test]
         public void PriceAndStockRequest_From_Null_Filter_Throws()
             => Assert.Catch<ArgumentNullException>(
                 () => IPriceAndStockRequest.FromFilter(null));
